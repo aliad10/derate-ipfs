@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-import { router } from './routes/sampleRoute.js';
+import { router } from './routes/ipfsRoute.js';
 
 const swaggerOptions = {
   definition: {
